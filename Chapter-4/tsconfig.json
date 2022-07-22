@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "lib" : ["es2015"], // Which APIs should TSC assume exist in the environment you’ll be running your code in? This includes things like
+                          //ES5’s , ES2015’s , and the DOM’s .
+      "module": "CommonJS", // Which module system should TSC compile your code to (CommonJS, SystemJS, ES2015, etc.)?
+      "sourceMap": true,
+      "strict": true, // Be as strict as possible when checking for invalid code. This option enforces that all of your code is properly typed.
+                      //We’ll be using it for all of the examples in the book, and you should use it for your TypeScript project too.
+      "target": "ES2015", // Which JavaScript version should TSC compile your code to (ES3, ES5, ES2015, ES2016, etc.)?
+      "rootDir": "",
+      "outDir": "./dist", // Which folder should TSC put your generated JavaScript code in?
+    },
+    "include": ["src"] // Which folders should TSC look in to find your TypeScript files?
+  }
+  
